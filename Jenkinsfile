@@ -16,7 +16,7 @@ pipeline{
         
         stage('build'){
             step{
-                sh 'docker build -t "najwadv96/relife:latest" .'
+                sh 'docker build -t "skag07/relife:latest" .'
             }
 
         }
@@ -29,7 +29,7 @@ pipeline{
         stage('Push') {
 
 			steps {
-				sh 'docker push najwadv96/relife:latest'
+				sh 'docker push skag07/relife:latest'
 			}
 		}
 
