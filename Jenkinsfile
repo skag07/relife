@@ -15,9 +15,9 @@ pipeline{
     stages {
         
         stage('build'){
-            step{
-                sh 'docker build -t "skag07/relife:latest" .'
-            }
+           		step{
+                		sh 'docker build -t "skag07/relife:latest" .'
+            	}
 
         }
         stage('Login') {
