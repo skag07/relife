@@ -16,7 +16,7 @@ ENV PATH $JAVA:$JAVA_HOME:$M2_HOME:$M2:$PATH
 WORKDIR /app
 COPY . .
 RUN ["mvn", "package"]
-RUN cp ./maven-wrapper.jar /usr/local/tomcat/webapps
+RUN cp ./.mvn/wrapper/maven-wrapper.jar /usr/local/tomcat/webapps
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
