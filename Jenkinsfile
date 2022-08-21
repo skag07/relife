@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('Najwa-dockerhub-token')
+        DOCKERHUB_CREDENTIALS = credentials('Skag07')
 		AWS_ACCESS_KEY_ID     = credentials('NajwaN-aws-secret-key-id')
   		AWS_SECRET_ACCESS_KEY = credentials('NajwaN-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
