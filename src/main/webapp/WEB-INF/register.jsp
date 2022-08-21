@@ -43,10 +43,10 @@
     <div class="v35_239"></div><div class="name"></div><div class="name"></div>
     <span class="v35_242">© 2022 RElife, All Rights Reserved.
 </span>
-    <img alt="" style="margin-top:-2px; margin-left:5px; position: absolute;" src="/rimg/logo2.png">
+    <img alt="" style="margin-top:30px; margin-left:50px; position: absolute;" src="/img/logo.png">
     <div class="d-flex">
 
-        <div class="align-items-center container p-5 col-md-7" style="margin-top:12%;background-color:rgba(0, 0, 0, 0.25); border-radius:30px;">
+        <div class="align-items-center container p-5 col-md-7" style="margin-top:8%;background-color:rgba(0, 0, 0, 0.25); border-radius:30px;">
             <h3>Registration</h3>
             <br>
             <form:form action="/register" method="post" modelAttribute="newUser">
@@ -640,6 +640,7 @@ body {
     position: absolute;
     top: 168px;
     left: 0px;
+    z-index: -50;
 }
 .v35_320 {
     width: 156px;
